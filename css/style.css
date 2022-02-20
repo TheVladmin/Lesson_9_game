@@ -1,0 +1,199 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+header{
+    text-align: center;
+    margin-bottom: 150px;
+}
+p{
+    font-size: 25px;
+    color: rgb(78, 5, 5);
+    font-weight: 700;
+
+}
+.game {
+    width: 1080px;
+    margin: 0 auto;
+}
+.gameblock-1 {
+    background: #000;
+    margin: 0 0 0 auto;
+}
+.small-block {
+    width:60px;
+    height: 80px;  
+}
+.gameblock-2 {
+    background: #000;
+    margin: 0 0 0 auto;
+}
+.gameblock-2:hover {
+    width: 100%;
+}
+.gameblock-3 {
+    background: #000;
+    visibility: hidden;
+}
+.gameblock-2:hover ~ .gameblock-3,
+.gameblock-3:hover{
+    visibility: visible;
+    width:40px;
+}
+.gameblock-3:hover ~ .gameblock-4,
+.gameblock-4:hover{
+    width: 100%;
+    height: 40px;
+    visibility: visible;
+}
+.gameblock-4 {
+    background: #000;
+    width:40px;
+    height: 40px; 
+    visibility: hidden;
+}
+.gameblock-4:hover ~ .gameblock-5,
+.gameblock-5:hover{
+    visibility: visible;
+}
+.gameblock-5 {
+    background: #000;
+    width:30px;
+    height: 30px; 
+    margin: 0 0 0 auto;
+    visibility: hidden;
+}
+.gameblock-6 {
+    background: #000;
+    width:30px;
+    height: 30px;
+    visibility: hidden;
+    margin: 0 0 0 auto;
+}
+.gameblock-5:hover ~ .gameblock-6,
+.gameblock-6:hover{
+    visibility: visible;
+}
+.gameblock-6:hover{
+    width: 100%;
+}
+
+.gameblock-7 {
+    background: #000;
+    width:25px;
+    height: 125px;
+    visibility: hidden;
+}
+.gameblock-6:hover ~ .gameblock-7,
+.gameblock-7:hover{
+    visibility: visible;
+}
+.gameblock-8 {
+    background: #000;
+    width:25px;
+    height:525px;
+    visibility: hidden;
+}
+
+.gameblock-7:hover ~ .gameblock-8,
+.gameblock-8:hover{
+    visibility: visible;
+}
+
+.gameblock-9 {
+    width:25px;
+    height:20px;
+    background: #000;
+    visibility: hidden;
+}
+.gameblock-8:hover ~ .gameblock-9,
+.gameblock-9:hover{
+    visibility: visible;
+}
+.gameblock-9:hover{
+    width: 100%;
+}
+.gameblock-10 {
+    width:15px;
+    height:25px;
+    background: #000;
+    margin: 0 0 0 auto;
+    visibility: hidden;
+}
+
+.gameblock-9:hover ~ .gameblock-10,
+.gameblock-10:hover{
+    visibility: visible;
+}
+.gameblock-11 {
+    width:15px;
+    height:25px;
+    background: #000;
+    margin: 0 0 0 auto;
+    visibility: hidden;
+}
+.gameblock-10:hover ~ .gameblock-11,
+.gameblock-11:hover{
+    visibility: visible;
+    width: 100%;
+    height: 15px;
+}
+.gameblock-12 {
+    width:10px;
+    height:225px;
+    background: #000;
+    visibility: hidden;
+}
+.gameblock-11:hover ~ .gameblock-12,
+.gameblock-12:hover{
+    visibility: visible;
+}
+.gameblock-13 {
+    background: #000;
+    visibility: hidden;
+    height:10px;
+}
+
+.gameblock-12:hover ~ .gameblock-13,
+.gameblock-13:hover{
+    visibility: visible;
+    width: 500px;
+}
+.gameblock-14 {
+    background: #000;
+    height: 300px;
+    width: 10px;
+    margin-left: 490px;
+    visibility: hidden;
+}
+
+.gameblock-13:hover ~ .gameblock-14,
+.gameblock-14:hover{
+    visibility: visible;
+    width: 10px;
+}
+
+.gameblock-15{
+    background: #000;
+    height: 1000px;
+    width: 10px;
+    margin-left: 490px;
+    visibility: hidden;
+    margin-bottom: 200px;
+}
+.gameblock-14:hover ~ .gameblock-15,
+.gameblock-15:hover{
+    visibility: visible;
+    width: 10px;
+}
+.vitory{
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
